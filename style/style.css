@@ -1,0 +1,1248 @@
+body {
+    direction: rtl;
+    font-family: IRANSans;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1429px !important;
+    }
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 900;
+    src: url('../assets/fonts/IRANSans/eot/IRANSansWeb(FaNum)_Black.eot');
+    src: url('../assets/fonts/IRANSans/eot/IRANSansWeb(FaNum)_Black.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../assets/fonts/IRANSans/woff2/IRANSansWeb(FaNum)_Black.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../assets/fonts/IRANSans/woff/IRANSansWeb(FaNum)_Black.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../assets/fonts/IRANSans/ttf/IRANSansWeb(FaNum)_Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../assets/fonts/IRANSans/eot/IRANSansWeb(FaNum)_Bold.eot');
+    src: url('../assets/fonts/IRANSans/eot/IRANSansWeb(FaNum)_Bold.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../assets/fonts/IRANSans/woff2/IRANSansWeb(FaNum)_Bold.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../assets/fonts/IRANSans/woff/IRANSansWeb(FaNum)_Bold.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../assets/fonts/IRANSans/ttf/IRANSansWeb(FaNum)_Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 500;
+    src: url('../assets/fonts/IRANSans/eot/IRANSansWeb(FaNum)_Medium.eot');
+    src: url('../assets/fonts/IRANSans/eot/IRANSansWeb(FaNum)_Medium.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../assets/fonts/IRANSans/woff2/IRANSansWeb(FaNum)_Medium.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../assets/fonts/IRANSans/woff/IRANSansWeb(FaNum)_Medium.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../assets/fonts/IRANSans/ttf/IRANSansWeb(FaNum)_Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../assets/fonts/IRANSans/eot/IRANSansWeb(FaNum)_Light.eot');
+    src: url('../assets/fonts/IRANSans/eot/IRANSansWeb(FaNum)_Light.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../assets/fonts/IRANSans/woff2/IRANSansWeb(FaNum)_Light.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../assets/fonts/IRANSans/woff/IRANSansWeb(FaNum)_Light.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../assets/fonts/IRANSans/ttf/IRANSansWeb(FaNum)_Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 200;
+    src: url('../assets/fonts/IRANSans/eot/IRANSansWeb(FaNum)_UltraLight.eot');
+    src: url('../assets/fonts/IRANSans/eot/IRANSansWeb(FaNum)_UltraLight.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../assets/fonts/IRANSans/woff2/IRANSansWeb(FaNum)_UltraLight.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../assets/fonts/IRANSans/woff/IRANSansWeb(FaNum)_UltraLight.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../assets/fonts/IRANSans/ttf/IRANSansWeb(FaNum)_UltraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/fonts/IRANSans/eot/IRANSansWeb(FaNum).eot');
+    src: url('../assets/fonts/IRANSans/eot/IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../assets/fonts/IRANSans/woff2/IRANSansWeb(FaNum).woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../assets/fonts/IRANSans/woff/IRANSansWeb(FaNum).woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../assets/fonts/IRANSans/ttf/IRANSansWeb(FaNum).ttf') format('truetype');
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+@font-face {
+    font-family: dana;
+    font-style: normal;
+    font-weight: 10;
+    src: url('../assets/fonts/Dana/eot/dana-thin.eot');
+    src: url('../assets/fonts/Dana/eot/dana-thin.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../assets/fonts/Dana/woff2/dana-thin.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../assets/fonts/Dana/woff/dana-thin.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+    font-family: dana;
+    font-style: normal;
+    font-weight: 200;
+    src: url('../assets/fonts/Dana/eot/dana-extralight.eot');
+    src: url('../assets/fonts/Dana/eot/dana-extralight.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../assets/fonts/Dana/woff2/dana-extralight.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../assets/fonts/Dana/woff/dana-extralight.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+    font-family: dana;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../assets/fonts/Dana/eot/dana-light.eot');
+    src: url('../assets/fonts/Dana/eot/dana-light.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../assets/fonts/Dana/woff2/dana-light.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../assets/fonts/Dana/woff/dana-light.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+    font-family: dana;
+    font-style: normal;
+    font-weight: 500;
+    src: url('../assets/fonts/Dana/eot/dana-medium.eot');
+    src: url('../assets/fonts/Dana/eot/dana-medium.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../assets/fonts/Dana/woff2/dana-medium.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../assets/fonts/Dana/woff/dana-medium.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+    font-family: dana;
+    font-style: normal;
+    font-weight: 600;
+    src: url('../assets/fonts/Dana/eot/dana-demibold.eot');
+    src: url('../assets/fonts/Dana/eot/dana-demibold.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../assets/fonts/Dana/woff2/dana-demibold.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../assets/fonts/Dana/woff/dana-demibold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+    font-family: dana;
+    font-style: normal;
+    font-weight: 750;
+    src: url('../assets/fonts/Dana/eot/dana-ultrabold.eot');
+    src: url('../assets/fonts/Dana/eot/dana-ultrabold.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../assets/fonts/Dana/woff2/dana-ultrabold.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../assets/fonts/Dana/woff/dana-ultrabold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+    font-family: dana;
+    font-style: normal;
+    font-weight: 800;
+    src: url('../assets/fonts/Dana/eot/dana-extrabold.eot');
+    src: url('../assets/fonts/Dana/eot/dana-extrabold.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../assets/fonts/Dana/woff2/dana-extrabold.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../assets/fonts/Dana/woff/dana-extrabold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+    font-family: dana;
+    font-style: normal;
+    font-weight: 900;
+    src: url('../assets/fonts/Dana/eot/dana-black.eot');
+    src: url('../assets/fonts/Dana/eot/dana-black.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../assets/fonts/Dana/woff2/dana-black.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../assets/fonts/Dana/woff/dana-black.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+    font-family: dana;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../assets/fonts/Dana/eot/dana-bold.eot');
+    src: url('../assets/fonts/Dana/eot/dana-bold.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../assets/fonts/Dana/woff2/dana-bold.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../assets/fonts/Dana/woff/dana-bold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+    font-family: dana;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/fonts/Dana/eot/dana-regular.eot');
+    src: url('../assets/fonts/Dana/eot/dana-regular.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../assets/fonts/Dana/woff2/dana-regular.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../assets/fonts/Dana/woff/dana-regular.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+.header-top{
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-items{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 27px;
+}
+
+.header-Contact-us {
+    font-size: 16px;
+    font-family: dana;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 15px;
+    color: #8B8B8B;
+}
+
+.header-basket {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.header {
+    background-color: #ffffff;
+    box-shadow: 0 -56px 94px rgba(145, 145, 145, 0.9);
+    padding: 25px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 37px;
+    font-family: dana;
+}
+
+.header-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 46px;
+    color: #5D6475;
+    margin-bottom: 0 !important;
+    font-family: dana;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.header-list-item {
+    transition: 0.3s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.header-link:hover {
+    color: #66CB17;
+}
+
+.header-link {
+    text-decoration: none;
+    color: #3C4354;
+    font-family: dana;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.header-list-item:hover{
+    color: #66CB17;
+}
+
+.header-back-button {
+    background-color: #8ED557;
+    border-radius: 3px;
+    padding: 10px 11px;
+    color: #ffffff;
+    border: unset;
+    box-shadow: 0 5px 15px rgba(126, 207, 66, 0.34);
+    transition: 0.3s;
+    cursor: pointer;
+    font-family: dana;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-back-button:hover {
+    background-color: #7fc945;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+.hero-fast-support {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 124px;
+}
+
+.hero-fast-support-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-fast-support-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-fast-support-img img {
+    max-width: 100%;
+}
+
+.hero-fast-support-text {
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-fast-support-title {
+    font-size: 32px;
+    font-family: dana;
+    color: #3C4354;
+}
+
+.hero-fast-support-sub-title {
+    font-family: dana;
+    font-size: 24px;
+    color: #3C4354;
+}
+
+.green-button {
+    background-color: #8ED557;
+    border-radius: 3px;
+    padding: 12px 24px;
+    color: #ffffff;
+    border: unset;
+    box-shadow: 0 5px 15px rgba(126, 207, 66, 0.34);
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 49px;
+    font-family: dana;
+}
+
+.green-button:hover {
+    background-color: #7fc945;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+.service-title-icon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 35px;
+}
+
+.service-title {
+    font-size: 24px;
+    font-family: dana;
+    color: #3C4354;
+}
+
+.service-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0 0 25px rgba(206, 206, 219, 0.45);
+    background-image: url("../assets/images/service-background.png");
+    gap: 15px;
+    position: relative;
+    padding: 32px 70px;
+    max-width: 410px;
+    background-color: #ffffff;
+    z-index: 9;
+}
+
+.service-item {
+    position: relative;
+}
+
+.service-content-icon{
+    position: absolute;
+    left: -54px;
+    color: #D5D5D5;
+    font-size: 32px;
+}
+
+.service-item::after {
+    content: "";
+    position: absolute;
+}
+
+.service-item::before {
+    content: "";
+    position: absolute;
+    left: 45px;
+    width: 115px;
+    height: 134px;
+    transform: skew(8deg);
+    background-color: #FBB423;
+    z-index: 0;
+    border-radius: 7px;
+    top: 10px;
+}
+
+.service-item--green::before {
+    background-color: #99CF61;
+}
+
+.service-item--blue::before {
+    background-color: #93B4D4;
+}
+
+.service-content-text {
+    font-family: dana;
+    font-size: 20px;
+    color: #8B8B8B;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+.service-feature-section {
+    background-color: #F9F9F9;
+    margin-top: 100px;
+}
+
+.Service-feature {
+    display: flex;
+    background-color: #FFF;
+    border-radius: 6px;
+    margin-bottom: 79px;
+    margin-top: 35px;
+    position: relative;
+    max-width: 306px;
+    min-height: 130px;
+    padding: 0 53px 0 18px;
+}
+
+.Service-feature-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    right: -32px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+
+.Service-feature-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Service-feature-title {
+    font-size: 22px;
+    font-family: dana;
+    color: #3C4354;
+}
+
+.Service-feature-sub-title {
+    font-family: IRANSans;
+    font-size: 14px;
+    color: #A4A4A4;
+    text-align: start;
+}
+
+.service-feature-title-icon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 55px;
+}
+
+.service-feature-title {
+    font-family: dana;
+    font-size: 24px;
+    color: #3C4354;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+.instant-refund-section {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.instant-refund-section-img img {
+    max-width: 100%;
+}
+
+.header-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+}
+
+.header-title-info {
+    font-family: dana;
+    font-size: 24px;
+    color: #3C4354;
+}
+
+.money-back-section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.money-back-section-title {
+    font-size: 20px;
+    font-family: dana;
+    color: #8B8B8B;
+    padding: 23px 0 22px 0;
+}
+
+.money-back-section-sub-title {
+    font-family: IRANSans;
+    font-size: 20px;
+    color: #6D6D6D;
+    text-align: right;
+    line-height: 37px;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+.question-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    padding: 70px 0 22px 0;
+    border-top: 2px solid #cec9c9;
+}
+
+.question-title-info {
+    font-family: dana;
+    font-size: 22px;
+}
+
+.questions-list-numbers {
+    font-size: 22px;
+    font-family: IRANSans;
+    color: #8B8B8B;
+}
+
+.questions-title {
+    font-family: IRANSans;
+    font-size: 20px;
+    color: #8B8B8B;
+    padding: 11px 18px 11px 0;
+    font-weight: 300;
+}
+
+.questions-section {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 25px rgba(206, 206, 219, 0.45);
+    background-color: #FFF;
+    margin-bottom: 22px;
+    border-radius: 5px;
+}
+
+.questions-answers {
+    font-size: 20px;
+    font-family: IRANSans;
+    color: #8B8B8B;
+    border-top: 1px solid #7070701f;
+    padding: 21px 30px 34px 0;
+}
+
+.questions-icons {
+    cursor: pointer;
+    padding: 30px 0 26px 40px;
+    color: #A4A4A4;
+}
+
+.questions-header {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+.Attributes {
+    padding: 70px 0 30px;
+}
+
+.attributes-border {
+    border-top: 2px solid #d7d5d5;
+    padding-top: 82px;
+}
+
+.Attributes-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Attributes-title {
+    color: #3C4354;
+    font-size: 18px;
+    font-family: dana;
+    padding-top: 10px;
+}
+
+.Attributes-sub-title {
+    font-size: 14px;
+    font-family: IRANSans;
+    color: #959595;
+}
+
+.footer-row-item {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+.footer {
+    background-color: #FCFCFC;
+    box-shadow: 0 0 0 rgba(57, 51, 51, 0.9);
+    margin-top: 200px;
+}
+
+.footer-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-row-list {
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+    padding-left: 15px;
+    cursor: pointer;
+
+}
+
+.footer-title {
+    font-size: 18px;
+    font-family: dana;
+    color: #3C4354;
+    display: flex;
+    text-align: right;
+    padding-right: 38px;
+}
+
+.footer-row-ul {
+    list-style-type: none;
+    margin-top: 27px;
+    line-height: 30px;
+}
+
+.footer-row-ul::before {
+    content: "";
+    position: absolute;
+    top: 28px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    z-index: 0;
+    box-shadow: 6px 0 14px -18px #707070;
+}
+
+.footer-row-li {
+    font-family: dana;
+    font-size: 16px;
+    color: #6D6D6D;
+    text-decoration: none;
+}
+
+.footer-send-ticket {
+    box-shadow: 2px 0 25px 0 rgba(145, 159, 167, .3);
+    border-radius: 4px;
+}
+
+.footer-responsiveness-info-top {
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 25px 20px;
+    align-items: center;
+}
+
+.footer-responsiveness-text {
+    font-size: 18px;
+    font-family: dana;
+    color: #6D6D6D;
+}
+
+.footer-responsiveness-title {
+    font-family: dana;
+    font-size: 16px;
+    color: #6D6D6D;
+    margin-top: 26px;
+    padding: 0 25px 22px 0;
+
+}
+
+.footer-responsiveness-sub-title {
+    font-size: 13px;
+    font-family: IRANSans;
+    color: #AAADB2;
+}
+
+.footer-button-ticket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.green-button {
+    background-color: #8ED557;
+    border-radius: 3px;
+    padding: 12px 24px;
+    color: #ffffff;
+    border: unset;
+    box-shadow: 0 5px 15px rgba(126, 207, 66, 0.34);
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: dana;
+}
+
+.footer-button-ticket.green-button {
+    margin-top: 0;
+    box-shadow: unset;
+}
+
+.green-button:hover {
+    background-color: #7fc945;
+}
+
+.footer-responsiveness-info-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F9F9F9;
+}
+
+.footer-responsiveness-info-sub-title {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.footer-responsiveness-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #8ED557;
+    padding: 0 25px 28px 0;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+.footer-statistics {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-image: linear-gradient(#FFCF69, #F9C659);
+}
+
+.footer-statistics-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.footer-statistics-li {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-statistics-li-numbers {
+    font-size: 30px;
+    font-family: IRANSans;
+    color: #FFFFFF;
+}
+
+.footer-statistics-li-info {
+    font-size: 14px;
+    font-family: IRANSans;
+    color: #FFFFFF;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+.footer-bottoms {
+    padding-top: 66px;
+    padding-bottom: 105px;
+}
+
+.footer-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    min-width: 53px;
+    padding: 0;
+    min-height: 53px;
+    margin-top: 20px;
+}
+
+.footer-button {
+    font-family: IRANSans;
+    border-radius: 4px;
+    border: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #F1F1F1;
+    padding: 16px;
+    transition: 0.3s;
+    border: unset;
+    min-width: 53px;
+    min-height: 53px;
+    gap: 10px;
+    line-height: 0;
+}
+
+.footer-button:hover {
+    background-color: #b2afaf;
+}
+
+.footer-button i {
+    font-size: 22px;
+    color: #C6C6C6;
+}
+
+.footer-button-white {
+    color: #ffffff;
+}
+
+.footer-button-white i {
+    color: #ffffff;
+}
+
+.footer-button-instagram {
+    background-image: linear-gradient(30deg, #89B0FA, #FF2986 58%);
+}
+
+.footer-button-instagram:hover {
+    background-image: linear-gradient(30deg, #fa529a, #fc6b58 58%);
+}
+
+.footer-button-telegram {
+    background-image: linear-gradient(30deg, #67C9F5, #0889C8);
+}
+
+.footer-button-telegram:hover {
+    background-image: linear-gradient(30deg, #3086ad, #0889C8);
+}
+
+.footer-links {
+    font-family: IRANSans;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    gap: 12px;
+    text-decoration: none;
+    line-height: 0;
+}
+
+.footer-a:hover {
+    color: #ffffff;
+}
+
+.footer-texts {
+    font-size: 16px;
+    font-family: IRANSans;
+    color: #646262;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+    font-family: IRANSans;
+    color: #737070;
+    margin-top: 25px;
+}
+
+.footer-socials-title {
+    font-family: dana;
+    font-size: 18px;
+    color: #3C4354;
+    margin-top: 30px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+.footer-desc {
+    text-align: right;
+    font-size: 14px;
+    font-family: IRANSans;
+    color: #8B8B8B;
+    margin: 15px 0 30px;
+    padding: 25px 40px;
+    background-color: #f6f6f6;
+    border-radius: 4px;
+    line-height: 30px;
+}
+
+.copy-right {
+    font-family: IRANSans;
+    font-size: 14px;
+    color: #8B8B8B;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-call-info {
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+}
+
+.footer-call {
+    display: flex;
+    gap: 5px;
+}
+
+.footer-Purchase-conditions {
+    display: flex;
+    gap: 5px;
+}
+
+.footer-call-text {
+    font-size: 14px;
+    font-family: IRANSans;
+    color: #8B8B8B;
+}
+
+.footer-Purchase-conditions-text {
+    font-size: 14px;
+    font-family: IRANSans;
+    color: #8B8B8B;
+}
+
+.footer-call-icon {
+    color: #A4A4A4;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+@media (min-width: 320px) and (max-width: 480px) {
+    .header{
+        display: none;
+    }
+
+    .hero-fast-support-text {
+        gap: 10px;
+    }
+
+    .hero-fast-support-title {
+        font-size: 19px;
+    }
+
+    .hero-fast-support-sub-title {
+        font-size: 14px;
+    }
+
+    .service-title {
+        font-size: 20px;
+    }
+
+    .service-title-icon {
+        gap: 15px;
+        margin-top: 30px;
+    }
+
+    .service-item {
+        position: unset;
+        padding-top: 15px;
+    }
+
+    .service-item::before {
+        content: "";
+        position: unset;
+        left: 40px;
+        width: 115px;
+        height: 134px;
+        transform: skew(11deg);
+        background-color: #FBB423;
+        z-index: 0;
+        border-radius: 7px;
+        top: 10px;
+    }
+
+    .service-content-text {
+        font-size: 19px;
+    }
+
+    .Service-feature {
+        margin-bottom: 15px;
+        position: unset;
+        padding: 0;
+    }
+
+    .Service-feature-img {
+        position: unset;
+        width: unset;
+    }
+
+    .Service-feature-sub-title {
+        font-size: 12px;
+    }
+
+    .service-content {
+        padding: 32px 35px;
+    }
+
+    .service-feature-title {
+        font-size: 20px;
+    }
+
+    .service-feature-title-icon {
+        gap: 10px;
+    }
+
+    .money-back-section-title {
+        font-size: 18px;
+    }
+
+    .money-back-section-sub-title {
+        font-size: 19px;
+    }
+
+    .questions-list {
+        font-size: 17px;
+    }
+
+    .questions-icons {
+        padding: 14px 0 15px 9px;
+    }
+
+    .questions-answers {
+        font-size: 16px;
+        text-align: right;
+        padding: 21px 15px 34px 0;
+    }
+
+    .questions-title {
+        font-size: 18px;
+        padding: 11px 10px 11px 0;
+    }
+
+    .attributes-border {
+        gap: 30px;
+    }
+
+    .footer {
+        margin-top: 100px;
+    }
+
+    .footer-responsiveness-text {
+        font-size: 13px;
+    }
+
+    .green-button {
+        font-size: 12px;
+        padding: 12px 20px;
+        margin-bottom: 30px;
+        margin-top: 38px;
+    }
+
+    .footer-responsiveness-info-sub-title {
+        gap: 0;
+    }
+
+    .footer-responsiveness-title {
+        padding: 0 18px 22px 0;
+        font-size: 14px;
+    }
+
+    .footer-responsiveness-sub-title {
+        font-size: 12px;
+    }
+
+    .footer-responsiveness-bottom {
+        padding: 0 18px 28px 0;
+    }
+
+    .footer-title {
+        font-size: 15px;
+    }
+
+    .footer-row-li {
+        font-size: 15px;
+    }
+
+    .footer-statistics-li {
+        padding: 16px 23px;
+    }
+
+    .footer-row-list {
+        margin-right: 60px;
+        width: 50%;
+    }
+
+    .footer-statistics-li-numbers {
+        font-size: 20px;
+    }
+
+    .footer-buttons {
+        flex-direction: column;
+    }
+
+    .footer-button-ticket {
+        margin-bottom: 0;
+    }
+
+    .footer-statistics-li-info {
+        font-size: 10px;
+    }
+
+    .copy-right {
+        font-size: 13px;
+        padding-bottom: 15px;
+    }
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+@media (min-width: 481px) and (max-width: 768px) {
+    .header{
+        display: none;
+    }
+
+    .hero-fast-support-title {
+        font-size: 29px;
+    }
+
+    .hero-fast-support-sub-title {
+        font-size: 22px;
+    }
+
+    .hero-fast-support-img {
+        margin-top: 40px;
+        margin-bottom: 28px;
+    }
+
+    .service-item {
+        margin-bottom: 20px;
+    }
+
+    .service-item::before {
+        width: 100px;
+    }
+
+    .Service-feature {
+        margin-bottom: 0;
+        position: unset;
+        padding: 0;
+        max-width: unset;
+    }
+
+    .Service-feature-img {
+        position: unset;
+        width: unset;
+    }
+
+    .attributes-border {
+        gap: 30px;
+    }
+
+    .footer {
+        margin-top: 100px;
+    }
+
+    .footer-buttons {
+        flex-wrap: wrap;
+    }
+
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+@media (min-width: 769px) and (max-width: 1024px) {
+    .header{
+        display: none;
+    }
+
+    .hero-fast-support-title {
+        font-size: 21px;
+    }
+
+    .hero-fast-support-sub-title {
+        font-size: 16px;
+    }
+
+    .green-button {
+        margin-top: 30px;
+    }
+
+    .service-title-icon {
+        margin-top: 28px;
+    }
+
+    .service-content {
+        padding: 34px 41px;
+        margin-bottom: 15px;
+    }
+
+    .service-item::before {
+        left: 0;
+    }
+
+    .footer {
+        margin-top: 100px;
+    }
+
+    .footer-row-item {
+        margin-bottom: 25px;
+    }
+
+    .questions-answers {
+        padding: 21px 20px 34px 0;
+    }
+
+    .footer-responsiveness-text {
+        font-size: 15px;
+    }
+
+    .footer-button-ticket {
+        padding: 12px 17px;
+    }
+
+    .footer-responsiveness-info-sub-title {
+        gap: 0;
+    }
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+@media (min-width: 1025px) and (max-width: 1400px) {
+    .header-list{
+        gap: 30px;
+    }
+
+    .header-link{
+        font-size: 13px;
+    }
+
+    .green-button {
+        margin-top: 25px;
+    }
+
+    .service-title-icon {
+        margin-top: 22px;
+    }
+
+    .service-content {
+        padding: 32px 52px;
+    }
+
+    .service-content-text {
+        font-size: 14px;
+    }
+
+    .service-item::before {
+        transform: skew(8deg);
+        left: 2px;
+    }
+
+    .Service-feature-title {
+        font-size: 18px;
+    }
+}
+
